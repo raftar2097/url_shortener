@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrlShortener</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <script src="static/js/shorten.js" ></script>
+</head>
+<body>
+    <header>
+        <div class="first">
+            <h1>URL SHORTENER</h1>
+            <button class="button"><a href="https://utilityapp.netlify.app/urlencoderdecoder" target="blank">Utility</a></button>
+        </div>
+    </header>
+    <section>
+        <div class="url">
+            <input class="input" placeHolder="LongURL"></input>
+            <input class="output" placeholder="ShortURL"></input>
+            <div class="multi">
+                <button class="multibutton" id="shorten">Shorten</button>
+                <button class="multibutton" id="copy">Copy</button>
+            </div>
+        </div>
+        <div class="data">
+            <h2 style="text-align: center;display: block">List of URLS<h2>
+            <div style="overflow-x:auto;">
+                <table id="showData">
+                    <tr>
+                        <th>Long URL</th>
+                        <th>Short URL</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>URL SHORTENER</h2>
+        
+    </footer>
+</body>
+
+</html>

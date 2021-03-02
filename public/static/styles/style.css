@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:sans-serif;
+    margin: 0;
+    color:wheat;
+}
+header,footer{
+    padding:15px;
+    background-color: #424242;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.button {
+    background-color:wheat;
+    color: #424242;
+    width:100px;
+    height:70px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border:none;
+    font-size: 20px;
+}
+.button:active { 
+    border:1px solid #003366;
+} 
+a{
+    color:inherit;
+    text-decoration: none;
+}
+a:hover 
+{
+    color:inherit; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+footer{
+    text-align: center;
+}
+section{
+    background-color: wheat;
+    padding:30px;
+    width: 100%;
+}
+.url{
+    width:100%;
+    background-color: #424242;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom:10px;
+}
+.data{
+    background-color: #424242;
+    align-content: center;
+    margin:10px;
+}
+.input{
+    width: 100%;
+    height:50px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    font-size: 20px;
+    text-align: center;
+}
+.output{
+    align-content: center;
+    width:100%;
+    display: inline;
+    height:50px;
+    border-radius:5px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.multi{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.multibutton{
+    background-color:wheat;
+    color: #424242;
+    width:90px;
+    height:50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    border-bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #EF5B25;
+    font-size: medium;
+  }
+  th{
+      background-color: wheat;
+      color:#424242;
+  }
+  th, td {
+    text-align: left;
+    padding: 5px;
+    border: 4px solid white;
+  }
+  
+  tr:nth-child(odd){background-color:wheat;color:#424242}
